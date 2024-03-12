@@ -1,0 +1,14 @@
+baseURL = 'https://jacoblincool.github.io/collaborative-note/'
+languageCode = 'en-us'
+title = 'Collaborative Note'
+theme = ["github.com/adityatelange/hugo-PaperMod"]
+
+[module]
+[[module.imports]]
+path = "github.com/adityatelange/hugo-PaperMod"
+
+[params]
+[params.editPost]
+URL = "https://github.com/JacobLinCool/collaborative-note/edit/main/content/"
+Text = "Suggest Changes"
+appendFilePath = true
